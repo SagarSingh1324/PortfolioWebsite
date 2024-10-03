@@ -1,0 +1,24 @@
+.education-section{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: auto;
+}
+
+
+.education-section-title h5{
+    font-weight: bold;
+    text-align: center;
+}
+
+.institute-name{
+    color: white;
+}
+
+.degree{
+    color: white;
+}
+
+.cgpa{
+    color: white;
+}
+

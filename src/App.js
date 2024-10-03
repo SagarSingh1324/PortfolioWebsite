@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
 
-function App() {
+import Sidebar from './Componenets/Sidebar/Sidebar'
+import About from './Componenets/About/About'
+import TechStack from './Componenets/TechStack/TechStack'
+import Projects from './Componenets/Projects/Projects'
+import WorkExperience from './Componenets/WorkExperience/WorkExperience'
+import Contact from './Componenets/Contact/Contact'
+import Education from './Componenets/Education/Education'
+
+// import Testimonial from './Componenets/Testimonial/Testimonial'
+import ScrollToTop from 'react-scroll-to-top'
+import './App.css'
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Sidebar />
+      <About />
+      <Projects />
+      <TechStack />
+      <WorkExperience />
+      <Education />
+      {/* <Testimonial /> */}
+      <Contact />
+
+      <ScrollToTop smooth={true}
+      color="white"
+      height="20"
+      width="20"
+      style={{borderRadius:'80px', backgroundColor:'blue',}}
+      />
+    </>
   );
 }
 
-export default App;
+export default App

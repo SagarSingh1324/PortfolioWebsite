@@ -1,0 +1,78 @@
+.contact-section{
+    margin-top: 20px;
+    margin-bottom: 120px;
+    height: 650px;
+    -webkit-box-shadow: 10px 10px 10px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 10px 2px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 10px 2px rgba(0,0,0,0.75);
+}
+
+.contact-form-title h5{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-form-image img{
+    height: 600px;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.contact-form-design{
+    height: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.contact-form-input{
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+
+.job-desc-input{
+    width: 100%;
+    border-radius: 10px;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+
+.custom-select-tag{
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+
+.submit-btn{
+    align-items: center;
+}
+
+.submit-btn p{
+    color: white;
+    background-color: black;
+    text-align: center;
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.submit-btn p:hover{
+    color: black;
+    background-color: greenyellow;
+    text-align: center;
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    transition-duration: 500ms;
+    cursor: pointer;
+}
