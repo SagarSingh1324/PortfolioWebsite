@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
 import Typewriter from 'typewriter-effect'
+import {Link} from 'react-scroll'
 
 const Home = () => {
   return (
@@ -25,10 +26,12 @@ const Home = () => {
 
           <div className='button-for-action'>
             <div className='hire-me-button'>
-              Hire Me
+              <Link to='contact' spy={true} smooth={true} offset={-100}>
+                Hire Me
+              </Link>
             </div>
             <div className='get-resume-button'>
-              <a href='https://drive.google.com/file/d/1L7LQycEeUvIqLH8Wv91lg9ze3IKqvlzW/view?usp=sharing' download="SagarSinghCV.pdf">
+              <a href='https://drive.google.com/file/d/1MIKWJ252eN0pU8wQcMO7Eae0Fn8f3Vkw/view?usp=drive_link' download="SagarSinghCV.pdf">
                 Get Resume
               </a>
             </div>
