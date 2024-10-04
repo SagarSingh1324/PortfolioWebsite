@@ -1,4 +1,6 @@
-.education-section{
+/* STYLE 1 */
+
+/* .education-section{
     margin-top: 40px;
     margin-bottom: 40px;
     height: auto;
@@ -20,5 +22,50 @@
 
 .cgpa{
     color: white;
+} */
+
+/* STYLE 2 */
+
+.education-section {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    padding: 30px; 
+    border-radius: 15px; 
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); 
 }
 
+.education-section-title h5 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem; 
+    color: #ffc107; 
+    margin-bottom: 20px; 
+    position: relative; 
+}
+
+.education-section-title h5::after {
+    content: ''; 
+    display: block;
+    width: 50%; 
+    height: 4px; 
+    background-color: #ffc107;
+    margin: 10px auto; 
+    border-radius: 2px; 
+}
+
+.institute-name,
+.degree,
+.cgpa {
+    color: #ffffff; 
+    background-color: rgba(255, 255, 255, 0.1); 
+    padding: 10px; 
+    border-radius: 8px;
+    margin: 10px 0; 
+    transition: background-color 0.3s; 
+}
+
+.institute-name:hover,
+.degree:hover,
+.cgpa:hover {
+    background-color: rgba(255, 255, 255, 0.3); 
+}

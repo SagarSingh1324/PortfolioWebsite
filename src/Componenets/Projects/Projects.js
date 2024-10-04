@@ -12,75 +12,65 @@ const Projects = () => {
 
     const data = [
         {
-            name: 'MERN Stack Job Portal',
-            description: 'this is the project description',
-            projectLink: 'project_link',
+            name: 'GameWave',
+            description: 'A website where you can buy gaming accessories. Users can make accounts, add items to cart and then make purchases. ',
+            projectLink: 'https://github.com/SagarSingh1324/GameWave',
             techUsed: [
-                {techName: 'NodeJS'},
-                {techName: 'ExpressJS'},
                 {techName: 'ReactJS'},
-                {techName: 'NextJS'},
-                {techName: 'VueJS'},
+                {techName: 'Bootstrap'},
+                {techName: 'ExpressJS'},
+                {techName: 'MongoDB'},
             ]
         },
         {
-            name: 'MERN Event Management Portal',
-            description: 'this is the project description',
-            projectLink: 'project_link',
+            name: 'IITMBiteView',
+            description: 'A website where IITM students can see if mess is open currently. They can also see what the current meal is or what the next meal will be.',
+            projectLink: 'https://github.com/SagarSingh1324/IITMBiteView',
             techUsed: [
-                {techName: 'NodeJS'},
-                {techName: 'ExpressJS'},
-                {techName: 'ReactJS'},
                 {techName: 'NextJS'},
-                {techName: 'VueJS'},
+                {techName: 'TailwindCSS'},
+                {techName: 'GitHub Actions'},
             ]
         },
         {
-            name: 'MERN Python Django Portal',
-            description: 'this is the project description',
-            projectLink: 'project_link',
+            name: 'DigiMandir',
+            description: 'Shorthand for Digital Mandir. Using this app, devotees can pray anytime, listen to prayers and make donations to temples as well.',
+            projectLink: 'https://github.com/SagarSingh1324/DigiMandir',
             techUsed: [
-                {techName: 'NodeJS'},
-                {techName: 'ExpressJS'},
-                {techName: 'ReactJS'},
-                {techName: 'NextJS'},
-                {techName: 'VueJS'},
+                {techName: 'ReactNative'},
+                {techName: 'Expo'},
+                {techName: 'NativeBase'},
+                {techName: 'Firebase'},
             ]
         },
         {
-            name: 'MERN Online Marketplace Portal',
-            description: 'this is the project description',
-            projectLink: 'project_link',
+            name: 'Portfolio Website',
+            description: 'This is the website you are currently on! As you can use see, here you can see my portfolio, download my resume and contact me.',
+            projectLink: 'https://github.com/SagarSingh1324/PortfolioWebsite',
             techUsed: [
-                {techName: 'NodeJS'},
-                {techName: 'ExpressJS'},
                 {techName: 'ReactJS'},
-                {techName: 'NextJS'},
-                {techName: 'VueJS'},
+                {techName: 'Bootstrap'},
+                {techName: 'GitHub Actions'},
             ]
         },
         {
-            name: 'MERN Video Streaming Portal',
-            description: 'this is the project description',
-            projectLink: 'project_link',
+            name: 'IITM NetAccess',
+            description: 'A desktop app using which you can automate the task of renewing your intenet connection on IITM lan network.',
+            projectLink: 'https://github.com/SagarSingh1324/NetAccess',
             techUsed: [
-                {techName: 'NodeJS'},
+                {techName: 'ElectronJS'},
                 {techName: 'ExpressJS'},
-                {techName: 'ReactJS'},
-                {techName: 'NextJS'},
-                {techName: 'VueJS'},
+                {techName: 'NodeJS'},
+                {techName: 'Selenium'},
             ]
         },
         {
-            name: 'MERN TV Shows Compiler Portal',
-            description: 'this is the project description',
-            projectLink: 'project_link',
+            name: 'QRScanner',
+            description: 'A simple QR Scanner app. Not a full fledged project. I made it to get familiar with basics of Android development.',
+            projectLink: 'https://github.com/SagarSingh1324/QRScanner',
             techUsed: [
-                {techName: 'NodeJS'},
-                {techName: 'ExpressJS'},
-                {techName: 'ReactJS'},
-                {techName: 'NextJS'},
-                {techName: 'VueJS'},
+                {techName: 'Android Studio'},
+                {techName: 'Java'},
             ]
         },
     ]

@@ -4,7 +4,7 @@ import Sidebar from './Componenets/Sidebar/Sidebar'
 import About from './Componenets/About/About'
 import TechStack from './Componenets/TechStack/TechStack'
 import Projects from './Componenets/Projects/Projects'
-import WorkExperience from './Componenets/WorkExperience/WorkExperience'
+// import WorkExperience from './Componenets/WorkExperience/WorkExperience'
 import Contact from './Componenets/Contact/Contact'
 import Education from './Componenets/Education/Education'
 
@@ -19,7 +19,7 @@ const App = () => {
       <About />
       <Projects />
       <TechStack />
-      <WorkExperience />
+      {/* <WorkExperience /> */}
       <Education />
       {/* <Testimonial /> */}
       <Contact />

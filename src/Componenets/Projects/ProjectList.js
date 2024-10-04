@@ -6,9 +6,9 @@ const ProjectList = ({name, description, projectLink, techUsed, }) => {
 
     const [showDescription, setShowDescription] = useState(false);
 
-    const changeShowDescriptionState = ()=>{
-        setShowDescription(!showDescription)
-    }
+    // const changeShowDescriptionState = ()=>{
+    //     setShowDescription(!showDescription)
+    // }
 
    return (
 
@@ -38,7 +38,7 @@ const ProjectList = ({name, description, projectLink, techUsed, }) => {
             </div>
 
             <div className='project-instance-demo-btn'>
-                <a target='_blank' href='https://google.com'> Live Demo </a>
+                <a target='blank' href={projectLink}>GitHub Link</a>
             </div>
 
             { showDescription ? (

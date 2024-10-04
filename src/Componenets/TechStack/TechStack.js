@@ -4,16 +4,18 @@ import './TechStack.css'
 const TechStack = () => {
 
   const techStackColors=[
-    '#9e0142',
-    '#d53e4f',
-    '#f46d43',
-    '#fdae61',
-    '#fee08b',
-    '#e6f598',
-    '#abdda4',
-    '#66c2a5',
-    '#3288bd',
-    '#5e4fa2',
+    '#1f78b4',
+    '#3bd6c6',
+    '#89ecda',
+    '#b2df8a',
+    '#33a02c',
+    '#fb9a99',
+    '#fdbf6f',
+    '#ff7f00',
+    '#cab2d6',
+    '#6a3d9a',
+    '#ffff99',
+    '#b15928',
   ]
 
   const techStackData=[
@@ -21,31 +23,37 @@ const TechStack = () => {
         name: 'ReactJS'
     },    
     {
+        name: 'ExpressJS'
+    },
+    {
         name: 'NextJS'
     },
     {
-        name: 'NodeJS'
+        name: 'ElectronJS'
     },
     {
-        name: 'C++'
+        name: 'ReactNative'
     },
     {
-        name: 'Python'
+        name: 'MySQL'
     },
     {
-        name: 'Django'
-    },
-    {
-        name: 'UI/UX'
-    },
-    {
-        name: 'JavaScript'
-    },
-    {
-        name: 'C'
+        name: 'MongoDB'
     },
     {
         name: 'Git'
+    },
+    {
+        name: 'GitHub Actions'
+    },
+    {
+        name: 'Jenkins'
+    },
+    {
+        name: 'Ansible'
+    },
+    {
+        name: 'Terraform'
     },
 
   ]

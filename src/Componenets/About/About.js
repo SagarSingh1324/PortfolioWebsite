@@ -19,13 +19,10 @@ const About = () => {
                         <h5>About Me</h5>
                     </div>
                     <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                    It has survived not only five centuries, but also the leap into electronic typesetting, 
-                    remaining essentially unchanged. It was popularised in the 1960s with the release of 
-                    Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing 
-                    software like Aldus PageMaker including versions of Lorem Ipsum
+                        Hello, I'm Sagar, an aspiring web app developer with a passion for building dynamic and responsive applications using modern web technologies.
+                        I am doing my Bachelors in EE and continuously gaining experience working on projects that solve real-world problems. 
+                        I enjoy tackling challenges and continuously learning new skills. Outside of coding, I like archiving media. Let's connect! Feel free to reach 
+                        out through the contact info mentioned in my resume.
                     </p>
                 </div>
             </div>

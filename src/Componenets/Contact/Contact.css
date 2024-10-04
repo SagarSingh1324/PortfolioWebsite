@@ -1,4 +1,6 @@
-.contact-section{
+/* STYLE 1 */
+
+/* .contact-section{
     margin-top: 20px;
     margin-bottom: 120px;
     height: 650px;
@@ -75,4 +77,93 @@
     margin: 0 auto;
     transition-duration: 500ms;
     cursor: pointer;
+} */
+
+/* STYLE 2 */
+
+.contact-section {
+    margin-top: 100px; 
+    margin-bottom: 100px;
+    max-width: 1100px; 
+    padding: 30px; 
+    height: auto; 
+    background-color: #f8f9fa; 
+    border-radius: 15px; 
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1), 0 20px 50px rgba(0, 0, 0, 0.2); 
 }
+
+.contact-form-title h5 {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px; 
+    margin-bottom: 30px; 
+    font-size: 2rem; 
+    color: #007bff; 
+    border-bottom: 2px solid #007bff; 
+    padding-bottom: 10px; 
+}
+
+.contact-form-image img {
+    height: 100%; 
+    width: 100%; 
+    border-radius: 15px; 
+    object-fit: cover; 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); 
+    transition: transform 0.3s; 
+}
+
+.contact-form-image img:hover {
+    transform: scale(1.05); 
+}
+
+.contact-form-design {
+    padding: 30px; 
+    border-radius: 15px; 
+    background-color: #ffffff; 
+    border: none; 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); 
+}
+
+.contact-form-input,
+.job-desc-input,
+.custom-select-tag {
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #ced4da; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #f1f3f5; 
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+.contact-form-input:focus,
+.job-desc-input:focus,
+.custom-select-tag:focus {
+    border-color: #007bff; 
+    background-color: #fff; 
+}
+
+.submit-btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.submit-btn p {
+    color: white;
+    background-color: #28a745;
+    text-align: center;
+    padding: 12px 25px; 
+    border-radius: 10px;
+    width: auto;
+    display: inline-block; 
+    transition: background-color 0.3s, color 0.3s; 
+    cursor: pointer;
+}
+
+.submit-btn p:hover {
+    color: white;
+    background-color: #218838; 
+}
+

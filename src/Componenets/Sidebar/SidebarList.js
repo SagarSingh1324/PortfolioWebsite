@@ -2,17 +2,19 @@ import React from 'react'
 import './SidebarList.css'
 import linkedinImage from '../../Images/linkedinImage.jpg'
 import {
+    FcAbout,
     FcHome,
-    FcNightPortrait,
+    // FcNightPortrait,
     FcTodoList,
     FcContacts,
-    FcFactory,
-    FcSalesPerformance,
+    // FcFactory,
+    // FcSalesPerformance,
  } from 'react-icons/fc'
 
- import { MdBiotech } from 'react-icons/md'
+//  import { MdBiotech } from 'react-icons/md'
  import { MdCastForEducation } from 'react-icons/md'
  import {Link} from 'react-scroll'
+ import { GrTechnology } from 'react-icons/gr'
 
 const SidebarList = ({expandSidebar}) => {
   return (
@@ -35,7 +37,7 @@ const SidebarList = ({expandSidebar}) => {
                     </li>
                     <li className='nav-item'>
                         <Link to='about' spy={true} smooth={true} offset={-100}>
-                            <FcNightPortrait size={25}/>
+                            <FcAbout size={25}/>
                             About
                         </Link>
                     </li>
@@ -47,16 +49,16 @@ const SidebarList = ({expandSidebar}) => {
                     </li>
                     <li className='nav-item'>
                         <Link to='techStack' spy={true} smooth={true} offset={-100}>
-                            <MdBiotech size={25} color='green'/>
+                            <GrTechnology size={25} color='green'/>
                             Tech Stack
                         </Link>
                     </li>
-                    <li className='nav-item'>
+                    {/* <li className='nav-item'>
                         <Link to='workExperience' spy={true} smooth={true} offset={-100}>
                             <FcFactory size={25}/>
                             Work Experience
                         </Link>
-                    </li>
+                    </li> */}
                     <li className='nav-item'>
                         <Link to='education' spy={true} smooth={true} offset={-100}>
                             <MdCastForEducation size={25} color='yellow'/>
@@ -86,17 +88,17 @@ const SidebarList = ({expandSidebar}) => {
                         <FcHome size={25}/>
                     </li>
                     <li className='nav-item'>
-                        <FcNightPortrait size={25}/>
+                        <FcAbout size={25}/>
                     </li>
                     <li className='nav-item'>
                         <FcTodoList size={25}/>
                     </li>
                     <li className='nav-item'>
-                        <MdBiotech size={25} color='green'/>
+                        <GrTechnology size={25} color='green'/>
                     </li>
-                    <li className='nav-item'>
+                    {/* <li className='nav-item'>
                         <FcFactory size={25}/>
-                    </li>
+                    </li> */}
                     <li className='nav-item'>
                         <MdCastForEducation size={25} color='yellow'/>
                     </li>

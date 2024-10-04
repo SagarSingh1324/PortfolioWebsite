@@ -2,9 +2,12 @@
     margin-top: 100px;
 }
 
-.projects-section-title h5{
+.projects-section-title h5 {
     font-weight: bold;
     text-align: center;
+    font-size: 24px;
+    color: #333; 
+    margin-bottom: 20px;
 }
 
 .project-list-instance{
@@ -70,23 +73,21 @@
     font-family: 'Times New Roman';
 }
 
-.load-more-projects{
-    background-color: rgb(162, 71, 247);
-    width: 150px;
-    padding: 10px;
-    color: white;
+.load-more-projects {
+    background-color: #a247f7; 
+    width: 160px; 
+    padding: 12px; 
+    color: #fff; 
     text-align: center;
-    justify-content: center;
-    display: table;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 5px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 40px auto; 
+    font-weight: bold; 
     cursor: pointer;
+    transition: background-color 0.3s;
+    display: block; 
 }
 
-.load-more-projects:hover{
-    background-color: rgb(84, 3, 160);
-    transition-duration: 500ms;
+.load-more-projects:hover {
+    background-color: #5e4fa2; 
+    transform: scale(1.05); 
 }
