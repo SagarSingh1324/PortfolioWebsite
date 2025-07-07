@@ -42,30 +42,30 @@
     text-align: center;
 }
 
-.project-instance-demo-btn{
-    width: 100px;
-    background-color: rgb(37, 170, 227);
-    border-radius: 10px;
-    text-align: center;
-    padding: 2px;
+.project-instance-demo-btn {
+    display: flex-row;
+    justify-content: left;
+    flex-wrap: wrap; 
+    gap: 5px;
     margin-top: 10px;
-    text-decoration: none;
+    background: none; 
+    text-align: left;
 }
 
-.project-instance-demo-btn:hover{
-    background-color: blueviolet;
-    transition-duration: 500ms;
-}
-
-.project-instance-demo-btn a{
+.project-instance-demo-btn a {
     text-decoration: none;
     color: white;
+    background-color: rgb(37, 170, 227);
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+    font-weight: 300;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.project-instance-demo-btn:hover a{
-    text-decoration: none;
+.project-instance-demo-btn a:hover {
+    background-color: blueviolet;
     color: black;
-    transition-duration: 500ms;
 }
 
 .project-instance-description{

@@ -20,19 +20,25 @@ const TechStack = () => {
 
   const techStackData=[
     {
-        name: 'ReactJS'
+        name: 'React Native'
     },    
+    {
+        name: 'Flutter'
+    },
+    {
+        name: 'React'
+    },
     {
         name: 'ExpressJS'
     },
     {
-        name: 'NextJS'
+        name: 'Redux'
     },
     {
-        name: 'ElectronJS'
+        name: 'Riverpod'
     },
     {
-        name: 'ReactNative'
+        name: 'PostgresSQL'
     },
     {
         name: 'MySQL'
@@ -47,15 +53,14 @@ const TechStack = () => {
         name: 'GitHub Actions'
     },
     {
-        name: 'Jenkins'
+        name: 'Terraform'
     },
     {
         name: 'Ansible'
     },
     {
-        name: 'Terraform'
+        name: 'AWS'
     },
-
   ]
 
   const [showMoreTechStack, setShowMoreTechStack] = useState(6);

@@ -25,7 +25,7 @@ const Education = () => {
       institutionName: 'IIT M',
       degree: 'B.Tech',
       CGPA: '7.2',
-      description: 'Currently pursuing a B.Tech degree in electrical engineering with a focus on computer science. Engaged in various projects and internships to enhance practical skills.',
+      description: 'Finished my B.Tech degree in Electrical Engineering with a focus on computer science. Engaged in various projects to enhance practical skills.',
       year: '2020-2025',
     },
   ]

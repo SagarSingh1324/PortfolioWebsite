@@ -19,10 +19,10 @@ const About = () => {
                         <h5>About Me</h5>
                     </div>
                     <p>
-                        Hello, I'm Sagar, an aspiring web app developer with a passion for building dynamic and responsive applications using modern web technologies.
-                        I am doing my Bachelors in EE and continuously gaining experience working on projects that solve real-world problems. 
-                        I enjoy tackling challenges and continuously learning new skills. Outside of coding, I like archiving media. Let's connect! Feel free to reach 
-                        out through the contact info mentioned in my resume.
+                        Hello, I'm Sagar, a cross platform mobile app developer and web developer.
+                        I have recently completed my Bachelors in Electrical Engineering from IIT Madras.
+                        I have been gaining experience working on various projects that solve real-world problems. . 
+                        Feel free to reach out to me through the contact info mentioned in my resume.
                     </p>
                 </div>
             </div>

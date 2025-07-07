@@ -12,20 +12,50 @@ const Projects = () => {
 
     const data = [
         {
-            name: 'GameWave',
-            description: 'A website where you can buy gaming accessories. Users can make accounts, add items to cart and then make purchases. ',
-            projectLink: 'https://github.com/SagarSingh1324/GameWave',
+            name: 'Gamr',
+            description: 'A mobile app where you can track your favorite games, create custom playlists, share your lists, track your playtime etc. One stop for all you gaming needs.',
+            projectLinks: [
+                { label: 'Github', url: 'https://github.com/SagarSingh1324/Gamr', color: 'blue' },
+                { label: 'Play Store', url: 'https://play.google.com/store/apps/details?id=com.ghostrex.gamr', color: 'green' },
+            ],
+            techUsed: [
+                {techName: 'Flutter'},
+                {techName: 'Riverpod'},
+            ]
+        },
+        {
+            name: 'GymBro',
+            description: 'A mobile app where you can track your gym workouts, create templates for various muscle groups, track your gym sessions etc. One stop for all you workout related needs.',
+            projectLinks: [
+                { label: 'Github', url: 'https://github.com/SagarSingh1324/GymBro', color: 'blue' },
+                { label: 'Play Store', url: 'https://play.google.com/store/apps/details?id=com.ghostrex.gymbro', color: 'green' },
+            ],
+            techUsed: [
+                {techName: 'React Native'},
+                {techName: 'Expo'},
+                {techName: 'Redux'},
+            ]
+        },
+        {
+            name: 'Portfolio',
+            description: 'This is the website you are currently on! As you can use see, here you can see my portfolio, download my resume and contact me.',
+            projectLinks: [
+                { label: 'Github', url: 'https://github.com/SagarSingh1324/PortfolioWebsite', color: 'blue' },
+                { label: 'Website', url: 'https://sagarsingh1324.netlify.app/', color: 'gray' },
+            ],
             techUsed: [
                 {techName: 'ReactJS'},
                 {techName: 'Bootstrap'},
-                {techName: 'ExpressJS'},
-                {techName: 'MongoDB'},
+                {techName: 'GitHub Actions'},
             ]
         },
         {
             name: 'IITMBiteView',
-            description: 'A website where IITM students can see if mess is open currently. They can also see what the current meal is or what the next meal will be.',
-            projectLink: 'https://github.com/SagarSingh1324/IITMBiteView',
+            description: 'A website where IITM students can see if mess is open currently. Once they select their mess, they can also see what the current meal is or what the next meal will be.',
+            projectLinks: [
+                { label: 'Github', url: 'https://github.com/SagarSingh1324/IITMBiteView', color: 'blue' },
+                { label: 'Website', url: 'https://sagarsingh1324.github.io/IITMBiteView/', color: 'gray' },
+            ],
             techUsed: [
                 {techName: 'NextJS'},
                 {techName: 'TailwindCSS'},
@@ -33,44 +63,29 @@ const Projects = () => {
             ]
         },
         {
-            name: 'DigiMandir',
-            description: 'Shorthand for Digital Mandir. Using this app, devotees can pray anytime, listen to prayers and make donations to temples as well.',
-            projectLink: 'https://github.com/SagarSingh1324/DigiMandir',
+            name: 'GameWave',
+            description: 'A website where you can buy gaming accessories. Users can make accounts, add items to cart and then make purchases. This was the project where I first explored and learned web development.',
+            projectLinks: [
+                { label: 'Github', url: 'https://github.com/SagarSingh1324/GameWave', color: 'blue' },
+            ],
             techUsed: [
-                {techName: 'ReactNative'},
-                {techName: 'Expo'},
-                {techName: 'NativeBase'},
-                {techName: 'Firebase'},
-            ]
-        },
-        {
-            name: 'Portfolio Website',
-            description: 'This is the website you are currently on! As you can use see, here you can see my portfolio, download my resume and contact me.',
-            projectLink: 'https://github.com/SagarSingh1324/PortfolioWebsite',
-            techUsed: [
-                {techName: 'ReactJS'},
+                {techName: 'React'},
                 {techName: 'Bootstrap'},
-                {techName: 'GitHub Actions'},
+                {techName: 'ExpressJS'},
+                {techName: 'MongoDB'},
             ]
         },
         {
             name: 'IITM NetAccess',
             description: 'A desktop app using which you can automate the task of renewing your intenet connection on IITM lan network.',
-            projectLink: 'https://github.com/SagarSingh1324/NetAccess',
+            projectLinks: [
+                { label: 'Github', url: 'https://github.com/SagarSingh1324/NetAccess', color: 'blue' },
+            ],
             techUsed: [
                 {techName: 'ElectronJS'},
                 {techName: 'ExpressJS'},
                 {techName: 'NodeJS'},
                 {techName: 'Selenium'},
-            ]
-        },
-        {
-            name: 'QRScanner',
-            description: 'A simple QR Scanner app. Not a full fledged project. I made it to get familiar with basics of Android development.',
-            projectLink: 'https://github.com/SagarSingh1324/QRScanner',
-            techUsed: [
-                {techName: 'Android Studio'},
-                {techName: 'Java'},
             ]
         },
     ]

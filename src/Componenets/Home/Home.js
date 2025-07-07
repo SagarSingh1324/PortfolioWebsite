@@ -14,8 +14,9 @@ const Home = () => {
               options={({
                 strings:[
                   'Frontend Developer',
+                  'Android Developer',
+                  'iOS Developer',
                   'Backend Developer',
-                  'Android Developer'
                 ],
                 autoStart: true,
                 loop: true,
@@ -31,7 +32,7 @@ const Home = () => {
               </Link>
             </div>
             <div className='get-resume-button'>
-              <a href='https://drive.google.com/file/d/1MIKWJ252eN0pU8wQcMO7Eae0Fn8f3Vkw/view?usp=drive_link' download="SagarSinghCV.pdf">
+              <a href='https://drive.google.com/file/d/1QhEkA5-h3hNUhOJVAkylALHGAxga86dO/view?usp=drive_link' download="SagarSinghCV.pdf">
                 Get Resume
               </a>
             </div>
