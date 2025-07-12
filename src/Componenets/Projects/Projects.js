@@ -67,6 +67,7 @@ const Projects = () => {
             description: 'A website where you can buy gaming accessories. Users can make accounts, add items to cart and then make purchases. This was the project where I first explored and learned web development.',
             projectLinks: [
                 { label: 'Github', url: 'https://github.com/SagarSingh1324/GameWave', color: 'blue' },
+                 { label: 'Website', url: 'https://gamewave.aiospace.online/', color: 'gray' },
             ],
             techUsed: [
                 {techName: 'React'},
