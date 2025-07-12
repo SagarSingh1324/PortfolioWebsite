@@ -37,6 +37,20 @@ const Projects = () => {
             ]
         },
         {
+            name: 'GameWave',
+            description: 'A website where you can buy gaming accessories. Users can make accounts, add items to cart and then make purchases. This was the project where I first explored and learned web development.',
+            projectLinks: [
+                { label: 'Github', url: 'https://github.com/SagarSingh1324/GameWave', color: 'blue' },
+                 { label: 'Website', url: 'https://gamewave.aiospace.online/', color: 'gray' },
+            ],
+            techUsed: [
+                {techName: 'React'},
+                {techName: 'Bootstrap'},
+                {techName: 'ExpressJS'},
+                {techName: 'MongoDB'},
+            ]
+        },
+        {
             name: 'Portfolio',
             description: 'This is the website you are currently on! As you can use see, here you can see my portfolio, download my resume and contact me.',
             projectLinks: [
@@ -60,20 +74,6 @@ const Projects = () => {
                 {techName: 'NextJS'},
                 {techName: 'TailwindCSS'},
                 {techName: 'GitHub Actions'},
-            ]
-        },
-        {
-            name: 'GameWave',
-            description: 'A website where you can buy gaming accessories. Users can make accounts, add items to cart and then make purchases. This was the project where I first explored and learned web development.',
-            projectLinks: [
-                { label: 'Github', url: 'https://github.com/SagarSingh1324/GameWave', color: 'blue' },
-                 { label: 'Website', url: 'https://gamewave.aiospace.online/', color: 'gray' },
-            ],
-            techUsed: [
-                {techName: 'React'},
-                {techName: 'Bootstrap'},
-                {techName: 'ExpressJS'},
-                {techName: 'MongoDB'},
             ]
         },
         {
