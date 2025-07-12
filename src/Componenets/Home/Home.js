@@ -32,7 +32,7 @@ const Home = () => {
               </Link>
             </div>
             <div className='get-resume-button'>
-              <a href='https://drive.google.com/file/d/1QhEkA5-h3hNUhOJVAkylALHGAxga86dO/view?usp=drive_link' download="SagarSinghCV.pdf">
+              <a href='https://drive.google.com/file/d/1R35BG0_xWEk0Bo2Zol81ABuDfXuuZGGh/view?usp=sharing' download="SagarSinghCV.pdf">
                 Get Resume
               </a>
             </div>
